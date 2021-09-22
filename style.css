@@ -1,0 +1,96 @@
+#fond {  
+background-color: white;
+}
+
+#header {  
+width: 100%;
+text-align: center;
+}
+
+#arrondie {
+/*arrondir les coins en haut à gauche et en bas à droite*/
+border-radius:15px;
+}
+
+#corps {
+text-align: center;
+width: 100%;
+display: inline-block; 
+background-color:#E4EFFF;
+border:1px solid #9FC6FF;
+padding:5px;
+border-radius:15px;
+}
+
+#corpsadm {
+text-align: center;
+width: 100%;
+display: inline-block; 
+background-color:#FBA6A6;
+border:1px solid #9FC6FF;
+padding:5px;
+border-radius:15px;
+}
+
+/*mise en forme pour le menu*/
+nav {  
+display: inline-block;  
+width: 100%;  
+text-align: center;
+}
+
+nav ul {  
+list-style-type: none;
+}
+
+nav li {  
+display: inline-block;  
+margin-right: 15px;
+}
+
+nav a {  
+font-size: 1.3em;  
+color: #181818;  
+padding-bottom: 3px;  
+text-decoration: none;
+}
+
+nav a:hover {  
+color: dodgerblue;  
+border-bottom-width: 3px;  
+border-bottom-style: solid;  
+border-bottom-color: dodgerblue;
+}
+
+#article
+{ 
+display: inline-block;  
+text-align: justify;
+width : 400px;
+margin-right: 50px;
+vertical-align: top;
+}
+
+#photos
+{
+display: inline-block;  
+vertical-align: top;
+text-align: center;
+margin-right: 30px;
+
+}
+
+label
+{
+display: block;
+width: 120px;
+float: left;
+}
+
+.cellule
+{
+	border-color : black;
+	border-style : solid solid solid solid;
+	border-width : thin thin thin thin;
+}
+
